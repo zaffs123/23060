@@ -1,0 +1,84 @@
+body{ 
+margin: 0;
+padding: 0;
+background-color: #0090f0;
+    
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.imagem:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+.texto_usuario,.texto_senha{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.usuario,.senha{
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+
+.senha{
+    margin-top: 30px;
+}
+
+.botao_login{
+    display:flex;
+    justify-content:center;
+    padding: 15px;
+}
+
+.senha_perdida,.recuperar{
+    display:flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+button{
+    height: 40px;
+    width: 80px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    cursor: pointer;
+}
+
+
+input{    
+    height: 30px;
+    width: 300px;
+    color: #ffffff;
+    text-align: center;
+    background: transparent;
+    border-color: #ffffff;
+    border: 1px solid;
+}
+
+input::placeholder{    
+    color: #ffffff;
+    opacity: 0.7;
+}

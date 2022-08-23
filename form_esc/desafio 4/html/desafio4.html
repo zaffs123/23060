@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/desafio4.css" media="screen">
+    <title>Desafio 4</title>
+</head>
+<body>
+    <section class="container" id="container">
+        <section class="conteudo">
+            <div class="esquerdo" id="esquerdo">
+                <div class="imagem">
+                    <img src="../imagens/undraw_About_us_page_re_2jfm 1.png">
+                </div>
+            </div>
+            <div class="direito" id="direito">
+                <div class="textos">
+                    <label>Bem vindo de volta</label>
+                    <h1>Faça login na sua conta</h1>
+                </div>
+                <div class="dados">
+                    <div class="box">
+                        <form action="form.html" method="POST">
+                                <br>
+                                <div class="inputBox">
+                                    <label for="nome" class="labelInput">Nome completo</label><br>
+                                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                                </div>
+                                <br>
+                                <div class="inputBox">
+                                    <label for="senha" class="labelInput">Senha</label><br>
+                                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                                </div><br><br>
+                                <div class="inputBox">
+                                    <label for="confirmar_senha" class="labelInput">Confirmar Senha</label><br>
+                                    <input type="password" name="confirmar_senha" id="confirmar_senha" class="inputUser" required>
+                                </div>
+                                <br><br>
+                                <div class="inputBox">
+                                    <label for="email" class="labelInput">Email</label><br>
+                                    <input type="text" name="email" id="email" class="inputUser" required>
+                                </div>
+                                <br><br>
+                                <div class="inputBox">
+                                    <label for="cpf" class="labelInput">Cpf</label><br>
+                                    <input type="text" name="cpf" id="cpf" class="inputUser" required>
+                                </div>
+                                <br><br>
+                                <div class="botao">
+                                    <input type="submit" name="submit" id="submit">
+                                </div>     
+                        </form>
+                    </div>
+                </div>
+                <div class="salvar">
+                    <input type="radio" name="Lembre de mim">
+                    <label>Lembre de mim</label>
+                    <div class="senha_perdida">
+                        <a href="#">Esqueceu sua senha?</a>
+                    </div>
+                </div>
+                <div class="botoes">
+                    <div class="login">
+                        <a href="#" /><button class="login_normal">Entrar</button>
+                        <br>
+                        <a href="#"/><button class="login_google"><img src="../imagens/Google__G__Logo.svg.png">Ou faça login com o Google </button>
+                    </div>
+                </div>
+                <div class="cadastro">
+                    <label class="cadastrar">Não tem uma conta?</label>
+                    <label><a href="#">Cadastre-se</a></label>
+                </div>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
